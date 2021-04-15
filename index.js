@@ -23,3 +23,7 @@ app.listen(port, () => {
 app.get('/', (req, res) => {
     res.send("This is the server root, Howdy mkm")
 })
+
+app.get('/test', (req, res) => {
+    res.send("This is a get test request")
+})
